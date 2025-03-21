@@ -1,6 +1,5 @@
 # Import necessary tools
 import math
-
 from selenium import webdriver
 import  time
 from selenium.webdriver.common.by import By
@@ -12,7 +11,6 @@ import  re
 driver = webdriver.Chrome()
 driver.get("https://www.daraz.com.bd/catalog/?q=pent")
 driver.maximize_window()
-
 
 # Lists to store extracted data
 product_name = []

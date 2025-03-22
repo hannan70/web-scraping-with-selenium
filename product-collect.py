@@ -19,12 +19,13 @@ product_image_link = []
 product_price = []
 total_review = []
 
-# find all product with all pages
+# find all product in a text
 total_product_text = driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/div[1]/div/div[1]/div[1]/div/div[1]/div/div/span[1]').text
 total_product = int(re.search(r'\d+', total_product_text).group())
 
 # Find all product elements in a single page
 all_products = driver.find_elements(By.XPATH, '//*[@id="root"]/div/div[2]/div[1]/div/div[1]/div[2]/div/div')
+
 
 # Get total number of products per page
 total_products_per_page = len(all_products)

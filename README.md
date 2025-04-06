@@ -34,7 +34,7 @@ count. And also dymanic product pagination*
     2. Collect all image using url
 
 # Product 05 
-### Feature
+### Shop Name and Phone Number collection
     1. Collect Shop Name
     2. Collect Shop Phone Number
     3. Save csv file
